@@ -1,5 +1,8 @@
 Test case causing `UnknownTableReferenceException` when using `FetchMode.SUBSELECT`. 
 
+https://github.com/s-webber/hibernate-test-case-orm-5-subselect-unknown-table-reference
+https://hibernate.atlassian.net/browse/HHH-16212
+
 ```
 Caused by: org.hibernate.sql.ast.tree.from.UnknownTableReferenceException: Unable to determine TableReference (`table_three_entity`) for `com.example.TableOneEntity(446267474892200).twos`
 	at org.hibernate.sql.ast.tree.from.AbstractColumnReferenceQualifier.resolveTableReference(AbstractColumnReferenceQualifier.java:45) ~[hibernate-core-6.1.6.Final.jar:6.1.6.Final]
